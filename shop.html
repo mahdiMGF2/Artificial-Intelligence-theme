@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمات هوش مصنوعی</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" media="(min-width:769px) AND (max-width:1100px)" href="./assets/css/pc.css">
+    <link rel="stylesheet" media="(min-width:501px) AND (max-width:768px)" href="./assets/css/Tablet.css">
+    <link rel="stylesheet" media="(max-width:501px)" href="./assets/css/mobile.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="mobile-menu">
+        <button id="menu-toggle">
+            <img src="./assets/images/icon/menu.svg" alt="menu">
+        </button>
+        <div class="btn-header">
+            <img class="icon" src="./assets/images/icon/search.svg" alt="search">
+            <img class="icon" src="./assets/images/icon/cart.svg" alt="cart">
+            <span class="number-cart">0</span>
+            <a class="start" href="sign.html">ثبت نام/ ورود</a>
+        </div>
+
+    </div>
+    <header class="menu-items">
+        <div class="logo">
+            <img src="./assets/images/logo.png" alt="logo">
+            <button id="menu-close">
+                <img width="30" height="30" src="./assets/images/icon/CLOSE.svg" alt="CLOSE">
+            </button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">خانه</a></li>
+                <div class="dropdown">صفحات
+                    <ul class="dropdown-menu">
+                        <li><a href="404.html">صفحه 404</a></li>
+                        <li><a href="coming-soon.html">به زودی</a></li>
+                    </ul>
+                </div>                <li><a href="leading-provider.html">ویژگی ها</a></li>
+                <div class="dropdown">فروشگاه
+                    <ul class="dropdown-menu">
+                        <li><a href="shop.html">فروشگاه</a></li>
+                        <li><a href="product.html">صفحه محصولات</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">وبلاگ
+                    <ul class="dropdown-menu">
+                        <li><a href="Blog_Sidebar.html">وبلاگ سایدبار</a></li>
+                        <li><a href="BlogNoSidebar.html">وبلاگ بدون ستون</a></li>
+                        <li><a href="blog-3-columns.html">وبلاگ سه ستونه</a></li>
+                    </ul>
+                </div>
+                <li><a href="about-us.html">درباره ما</a></li>
+                <li><a href="contact-us.html">تماس باما</a></li>
+            </ul>
+        </nav>
+        <div class="btn-header">
+            <img class="icon" src="./assets/images/icon/search.svg" alt="search">
+            <img class="icon" src="./assets/images/icon/cart.svg" alt="cart">
+            <span class="number-cart">1</span>
+            <a class="start" href=" sign.html">ثبت نام/ ورود</a>
+        </div>
+    </header>
+    <div class="shop-top-banner">
+        <div class="content-shop">
+            <h1>فروشگاه</h1>
+            <a href="index.html">صفحه اصلی</a>/
+            <a href="">فروشگاه</a>
+        </div>
+    </div>
+    <div class="shop">
+        <div class="side">
+            <div class="search-product">
+                <input type="search" placeholder="جستجو محصول.." name="search" id="search">
+                <div class="icon"><img width="25" height="25" src="./assets/images/icon/search-shop.svg " alt="search">
+                </div>
+            </div>
+            <div class="Categories">
+                <h2>دسته بندی ها</h2>
+                <ul>
+                    <li><img width="25" height="25" src="./assets/images/icon/chevron_left-shop.svg"
+                            alt="chevron_left">بینایی کامپیوتر</li>
+                    <li><img width="25" height="25" src="./assets/images/icon/chevron_left-shop.svg"
+                            alt="chevron_left">یادگیری ماشین</li>
+                    <li><img width="25" height="25" src="./assets/images/icon/chevron_left-shop.svg"
+                            alt="chevron_left">بینایی کامپیوتر</li>
+                    <li><img width="25" height="25" src="./assets/images/icon/chevron_left-shop.svg"
+                            alt="chevron_left">NLP</li>
+                    <li><img width="25" height="25" src="./assets/images/icon/chevron_left-shop.svg"
+                            alt="chevron_left">بینایی کامپیوتر</li>
+                    <li><img width="25" height="25" src="./assets/images/icon/chevron_left-shop.svg"
+                            alt="chevron_left">آمار</li>
+                </ul>
+            </div>
+            <div class="price_fillter">
+                <h3>فیلر فیمت</h3>
+
+
+                <div class="slider-container">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="price-slider">
+                    <div class="slider-labels">
+                        <span class="slider-label">0 تومان</span>
+                        <span class="slider-label">1.000.000 تومان </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hotproduct">
+                <h3>محصولات برتر</h3>
+                <div class="hot-product">
+                    <div class="box-hot">
+                        <div class="imghot">
+                            <img width="67" height="92" src="./assets/images/product_imagrs/product1.jpg" alt="1">
+                        </div>
+                        <div class="infohot">
+                            <h3 class="title-product-hot">راز یادگیری ماشینی</h3>
+                            <h4 class="price">12000هزارتومان</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="hot-product">
+                    <div class="box-hot">
+                        <div class="imghot">
+                            <img width="67" height="92" src="./assets/images/product_imagrs/product2.jpg" alt="1">
+                        </div>
+                        <div class="infohot">
+                            <h3 class="title-product-hot">راز یادگیری ماشینی</h3>
+                            <h4 class="price">12000هزارتومان</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="hot-product">
+                    <div class="box-hot">
+                        <div class="imghot">
+                            <img width="67" height="92" src="./assets/images/product_imagrs/product7.jpg" alt="1">
+                        </div>
+                        <div class="infohot">
+                            <h3 class="title-product-hot">راز یادگیری ماشینی</h3>
+                            <h4 class="price">12000هزارتومان</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-prodcut">
+            <div class="header-fillter">
+                <h3>نمایش 9 از 10 نتیجه</h3>
+                <select name="sort" id="sort">
+                    <option value="">مرتب سازی پیشفرض</option>
+                    <option value="">مرتب سازی براساس محبوبیت</option>
+                    <option value="">مرتب سازی براساس رتبه بندی متوسط</option>
+                    <option value="">مرتب سازی براساس آخرین</option>
+                    <option value="">مرتب سازی براساس قیمت : کم به زیاد</option>
+                    <option value="">مرتب سازی براساس قیمت : زیاد به کم</option>
+                </select>
+            </div>
+            <div class="all_product">
+                <div class="box-prodcut">
+                    <div class="product-image">
+                        <img class="images" src="./assets/images/product_imagrs/product1.jpg">
+                        <div class="button">
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/favorite.svg"
+                                    alt="favorite"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/cart.svg" alt="cart"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/visibility.svg"
+                                    alt="visibility"></a>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <h3 class="name-procduct">چگونه با هوش مصنوعی شروع کنیم</h3>
+                        <h4 class="price">120.000 هزار تومان</h4>
+                    </div>
+                </div>
+                <div class="box-prodcut">
+                    <div class="product-image">
+                        <img class="images" src="./assets/images/product_imagrs/product2.jpg">
+                        <div class="button">
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/favorite.svg"
+                                    alt="favorite"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/cart.svg" alt="cart"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/visibility.svg"
+                                    alt="visibility"></a>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <h3 class="name-procduct">مقدمه ای بر یادگیری آماری</h3>
+                        <h4 class="price">1.500 میلیون تومان </h4>
+                    </div>
+                </div>
+                <div class="box-prodcut">
+                    <div class="product-image">
+                        <img class="images" src="./assets/images/product_imagrs/product2.jpg">
+                        <div class="button">
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/favorite.svg"
+                                    alt="favorite"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/cart.svg" alt="cart"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/visibility.svg"
+                                    alt="visibility"></a>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <h3 class="name-procduct">مقدمه ای بر یادگیری آماری</h3>
+                        <h4 class="price">1.500 میلیون تومان </h4>
+                    </div>
+                </div>
+                <div class="box-prodcut">
+                    <div class="product-image">
+                        <img class="images" src="./assets/images/product_imagrs/product1.jpg">
+                        <div class="button">
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/favorite.svg"
+                                    alt="favorite"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/cart.svg" alt="cart"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/visibility.svg"
+                                    alt="visibility"></a>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <h3 class="name-procduct">چگونه با هوش مصنوعی شروع کنیم</h3>
+                        <h4 class="price">120.000 هزار تومان</h4>
+                    </div>
+                </div>
+                <div class="box-prodcut">
+                    <div class="product-image">
+                        <img class="images" src="./assets/images/product_imagrs/product2.jpg">
+                        <div class="button">
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/favorite.svg"
+                                    alt="favorite"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/cart.svg" alt="cart"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/visibility.svg"
+                                    alt="visibility"></a>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <h3 class="name-procduct">مقدمه ای بر یادگیری آماری</h3>
+                        <h4 class="price">1.500 میلیون تومان </h4>
+                    </div>
+                </div>
+                <div class="box-prodcut">
+                    <div class="product-image">
+                        <img class="images" src="./assets/images/product_imagrs/product6.jpg    ">
+                        <div class="button">
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/favorite.svg"
+                                    alt="favorite"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/cart.svg" alt="cart"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/visibility.svg"
+                                    alt="visibility"></a>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <h3 class="name-procduct">مقدمه ای بر یادگیری آماری</h3>
+                        <h4 class="price">1.500 میلیون تومان </h4>
+                    </div>
+                </div>
+                <div class="box-prodcut">
+                    <div class="product-image">
+                        <img class="images" src="./assets/images/product_imagrs/product5.jpg">
+                        <div class="button">
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/favorite.svg"
+                                    alt="favorite"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/cart.svg" alt="cart"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/visibility.svg"
+                                    alt="visibility"></a>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <h3 class="name-procduct">مقدمه ای بر یادگیری آماری</h3>
+                        <h4 class="price">1.500 میلیون تومان </h4>
+                    </div>
+                </div>
+                <div class="box-prodcut">
+                    <div class="product-image">
+                        <img class="images" src="./assets/images/product_imagrs/product6.jpg">
+                        <div class="button">
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/favorite.svg"
+                                    alt="favorite"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/cart.svg" alt="cart"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/visibility.svg"
+                                    alt="visibility"></a>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <h3 class="name-procduct">مقدمه ای بر یادگیری آماری</h3>
+                        <h4 class="price">1.500 میلیون تومان </h4>
+                    </div>
+                </div>
+                <div class="box-prodcut">
+                    <div class="product-image">
+                        <img class="images" src="./assets/images/product_imagrs/product7.jpg">
+                        <div class="button">
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/favorite.svg"
+                                    alt="favorite"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/cart.svg" alt="cart"></a>
+                            <a href=""><img width="20" height="20" src="./assets/images/icon/visibility.svg"
+                                    alt="visibility"></a>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <h3 class="name-procduct">مقدمه ای بر یادگیری آماری</h3>
+                        <h4 class="price">1.500 میلیون تومان </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="topfooter">
+            <img src="./assets/images/wave.svg" alt="topfooter">
+        </div>
+        <div class="content-footer">
+            <div class="sectionf">
+                <div class="dec">
+                    <p>ربات خود را از امروز شروع کنید!</p>
+                    <h3 class="chatbotfooter">ربات چت هوش مصنوعی را در عمل ببینید</h3>
+                    <P>پلتفرم ما به شما کمک می کند تا تجربه های متقابل پلتفرم را ایجاد کنید</P>
+                    <div class="input-search-reg">
+                        <input placeholder="آدرس ایمیل" type="email" name="" id="">
+                        <button type="submit"><img src="./assets/images/icon/send.svg" alt="send"></button>
+                    </div>
+                </div>
+                <div class="menu-footer">
+                    <h2>محصولات</h2>
+                    <ul>
+                        <li><a href="#">فن آوری</a></li>
+                        <li><a href="#">گالری مدل</a></li>
+                        <li><a href="#">کاوشگر آزمایشگاه هوش مصنوعی</a></li>
+                        <li><a href="#">قیمت گذاری</a></li>
+                        <li><a href="#">زیرساخت</a></li>
+                    </ul>
+                </div>
+                <div class="menu-footer">
+                    <h2>توسعه </h2>
+                    <ul>
+                        <li><a href="#">مستندات</a></li>
+                        <li><a href="#">مرجعAPI</a></li>
+                        <li><a href="#">وضعیت API</a></li>
+                        <li><a href="#">انجمن</a></li>
+                        <li><a href="#">ادعام</a></li>
+                    </ul>
+                </div>
+                <div class="menu-footer">
+                    <h2>منابع</h2>
+                    <ul>
+                        <li><a href="#">حمایت کردن</a></li>
+                        <li><a href="#">مخاطب</a></li>
+                        <li><a href="#">مطبوعات</a></li>
+                        <li><a href="#">کتاب های الکترونیکی و راهنما</a></li>
+                        <li><a href="#">سوالات متداول</a></li>
+                    </ul>
+                </div>
+                <div class="menu-footer">
+                    <h2>شرکت</h2>
+                    <ul>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">به روزرسانی های اخیر</a></li>
+                        <li><a href="#">مشاغل</a></li>
+                        <li><a href="#">وبلاگ</a></li>
+                        <li><a href="#">امنیت</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <div class="logo-footer">
+                    <img width="150" height="50" class="logo" src="./assets/images/logo.png" alt="logo">
+                    <h5>تمامی حقوق برای این سایت محفوظ می باشد</h5>
+                </div>
+                <div class="support-footer">
+                    <h2>مرکز کمک</h2>
+                    <a href="mail:info@anicoweb.ir">helpcenter@ai-lab.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>

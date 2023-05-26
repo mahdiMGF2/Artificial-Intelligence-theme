@@ -1,0 +1,34 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="645" height="651" viewBox="0 0 645 651">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+          
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1e1666;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+        opacity: 0.1;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M294.5,16C446.654,16,409.2,267.539,570,325.5,752.92,391.432,446.654,635,294.5,635S19,496.432,19,325.5,142.346,16,294.5,16Z"/>
+  <circle xmlns="http://www.w3.org/2000/svg" r="5" fill="#91eef7">
+    <animateMotion dur="10s" begin="-4000ms" repeatCount="indefinite" path="M294.5,16C446.654,16,409.2,267.539,570,325.5,752.92,391.432,446.654,635,294.5,635S19,496.432,19,325.5,142.346,16,294.5,16Z"/>
+  </circle>
+  <path id="Ellipse_693_" data-name="Ellipse 693 " class="cls-1" d="M262.437,153c107.938,0,81.364,178.393,195.438,219.5C587.637,419.259,370.375,592,262.437,592S67,493.726,67,372.5,154.5,153,262.437,153Z"/>
+  <circle xmlns="http://www.w3.org/2000/svg" r="5" fill="#91eef7">
+    <animateMotion dur="10s" begin="-2000ms" repeatCount="indefinite" path="M262.437,153c107.938,0,81.364,178.393,195.438,219.5C587.637,419.259,370.375,592,262.437,592S67,493.726,67,372.5,154.5,153,262.437,153Z"/>
+  </circle>
+  <path id="Ellipse_693_2" data-name="Ellipse 693 " class="cls-1" d="M252.359,233c86.907,0,65.511,143.446,157.359,176.5C514.2,447.1,339.266,586,252.359,586S95,506.978,95,409.5,165.452,233,252.359,233Z"/>
+  <circle xmlns="http://www.w3.org/2000/svg" r="5" fill="#91eef7">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M252.359,233c86.907,0,65.511,143.446,157.359,176.5C514.2,447.1,339.266,586,252.359,586S95,506.978,95,409.5,165.452,233,252.359,233Z"/>
+  </circle>
+</svg>
