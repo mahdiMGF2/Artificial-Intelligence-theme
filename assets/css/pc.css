@@ -238,3 +238,18 @@ footer,footer .menu-footer,footer .menu-footer ul li{
     padding: 0;
     text-align: center;
 }
+.images-personalize{
+    display: none;
+}
+.box-workflow{
+    width: 90%;
+}
+.logofe .title{
+    width: 400px;
+}
+.dropdown{
+    display: block;
+}
+.progressbar{
+    margin: 2em 0 0 0 ;
+}
