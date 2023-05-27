@@ -133,7 +133,7 @@ footer .menu-footer{
     margin-right: 0;
 }
 .content-integrates{
-    width: 70%;
+    width: 100%;
 }
 .eb-progress-bar{
     width: 7rem;
@@ -259,4 +259,22 @@ footer .menu-footer{
     flex-direction: column;
     padding: 0;
     text-align: center;
+}
+.images-personalize{
+    display: none;
+}
+.box-workflow{
+    width: 90%;
+}
+.logofe .title{
+    width: 400px;
+}
+.dropdown{
+    display: block;
+}
+.post .images img{
+    margin: 0 50px;
+}
+.img-nlp img {
+    width: 552px;
 }
