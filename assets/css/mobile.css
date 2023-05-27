@@ -164,7 +164,7 @@ footer .menu-footer {
 }
 
 .img-Generate img[alt="robot"] {
-    width: 400px;
+    width: 340px;
 }
 
 .input-search button {
@@ -227,7 +227,7 @@ header {
 }
 
 .send-form-contact .map iframe {
-    width: 391px;
+    width: 336px;
     height: 344px;
 }
 
@@ -281,7 +281,7 @@ header {
     flex-direction: column;
 }
 .image-primery img{
-    width: 370px;
+    width: 352px;
     height: 400px;
 }
 .product .info_product{
@@ -294,7 +294,7 @@ header {
     flex-direction: column;
 }
 #tab2 .review .text{
-    margin: 0;
+    margin: 10px;
 }
 #tab2 .review .text .commentandstar{
     flex-direction: column;
@@ -335,4 +335,42 @@ header {
     flex-direction: column;
     padding: 0;
     text-align: center;
+}
+.eb-progress-bar-wrapper {
+    padding: 3px;
+}
+.post{
+    width: 99%;
+    padding: 5px;
+    margin: 0;
+}
+.dropdown{
+    display: block;
+}
+.dropdown:hover .dropdown-menu{
+    width: 217px;
+}
+.images-personalize{
+    display: none;
+}
+.personalizedconversations .content-text{
+    width: 100%;
+}
+.box-workflow{
+    width: 80%;
+}
+.transformation{
+    padding: 10px 0px 10px 0px;
+}
+.logofe .title{
+    width: 311px;
+}
+.dropdown-menu a{
+    width: 135%;
+}
+.product_ma_images .imaage-side{
+    display: flex;
+}
+.tab_product{
+    padding: 0;
 }
