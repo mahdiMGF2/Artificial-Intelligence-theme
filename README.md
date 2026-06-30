@@ -7,4 +7,4 @@ contact us
 And...
 
 
-[Demo](https://mahdigholipour3.github.io/Artificial-Intelligence-theme/)
+[Demo](https://mahdiMGF2.github.io/Artificial-Intelligence-theme/)
